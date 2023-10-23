@@ -1,0 +1,8 @@
+Day 1
+
+All about printing, commenting, debugging, string manipulation and variables
+
+Project: Band name generator
+
+Terminal project
+Someone started a band and they not sure what to name the band. This helps generate a band name
