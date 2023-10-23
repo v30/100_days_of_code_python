@@ -1,16 +1,11 @@
-# This is a sample Python script.
+#Python script to generate a band name based on the city you were born in and your pet name
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#Print a welcome message
+print('Welcome to the Band Name Generator.')
 
+#Get input from the user
+city = input("What's the name of the city you grew up in?")
+pet_name = input("What's your pet's name?")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#Print the result
+print("Your band name could be "+city+" "+pet_name)
