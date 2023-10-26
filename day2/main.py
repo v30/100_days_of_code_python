@@ -1,16 +1,35 @@
-# This is a sample Python script.
+# Day 2 - Understanding data types
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Welcome message
+print("Welcome to the tip calculator.")
+totalBill = float(input("What was the total bill? $"))
+people = float(input("How many people to split the bill? "))
+percentage = float(input("What percentage tip would you like to give? 10, 12, or 15? "))
 
+# Calculate
+output = (totalBill + (totalBill*percentage/100))/people
+output = f"{output:.2f}"
+# Output
+print("Each person should pay: $"+str(output))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# Identify the type of var
+# print(type(output))
 
+# # 4 primitive data types
+# int(123)            # Integer
+# str("abc")          # String
+# float(123.00)       # Float
+# var = True          # Boolean
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# # Math operators python
+# print(3 + 2)        # +
+# print(3 - 2)        # -
+# print(3 * 2)        # *
+# print(3 / 2)        # /
+# print(3**2)         # 3 power of (2) in this case
+# print(3%2)          # modulus
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# name = input("your name? ")
+# for x in range(len(name)):
+#     pos = len(name) - x - 1
+#     print(name[pos])
