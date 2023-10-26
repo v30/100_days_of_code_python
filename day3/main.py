@@ -9,3 +9,10 @@ elif number > 20:
     print(f"{number} is > than 20")
 else:
     print(f"{number} number is between 10 and 20")
+
+if number > 10 and number < 20:
+    print(f"{number} number is between 10 and 20")
+
+if number < 10 | number > 20:
+    print(f"{number} number is either < 10 or > 20")
+
